@@ -1,0 +1,8 @@
+[user]
+	name = Roberto Salome
+	email = roberto.c.salome@gmail.com
+[core]
+	editor = vim
+	pager = less
+[color]
+	ui = auto
