@@ -11,6 +11,7 @@ set softtabstop=4 "number of spaces that are inserted when hitting TAB
 set expandtab "pushing TAB inserts spaces
 
 set wildmenu "show menu when entering a command and hitting TAB
+set ruler " show line number,column and percent of file
 
 set showmatch "highlight matching []{}()
 
