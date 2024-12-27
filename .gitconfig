@@ -4,5 +4,14 @@
 [core]
 	editor = vim
 	pager = less
+	#pager = delta
 [color]
 	ui = auto
+[pull]
+	ff = only
+[push]
+	default = current
+[delta]
+    line-numbers = true
+[url "git@github.com:"]
+    insteadOf = https://github.com/
