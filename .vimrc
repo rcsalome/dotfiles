@@ -1,5 +1,8 @@
 syntax on "enable syntax highlighting
-colorscheme delek
+"colorscheme delek
+colorscheme torte
+"set background=dark
+"highlight Normal ctermbg=Black
 
 filetype plugin indent on "set indent based on filetype
 
@@ -28,3 +31,5 @@ set tabpagemax=100 "set 100 tabs as the maximum, default is 10
 
 "set showcmd
 "set cursorline
+
+set nofixendofline "do not add newline at end of file if missing
