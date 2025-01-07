@@ -1,7 +1,7 @@
 # Git Branch
 function parse_git_branch() {
-     #git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
-	 git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'
+    #git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+    git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/[\1]/p'
 }
 
 # Settings
@@ -11,8 +11,8 @@ setopt prompt_subst
 PROMPT='%B%F{magenta}%}%D{%Y-%m-%d}.%D{%H:%M:%S}%f%b-:%B%F{cyan}%}%~%b%f%B%F{green}%}$(parse_git_branch)%b%f %#'
 
 export EDITOR=vim
-export HISTSIZE= # unlimited history
-export HISTFILESIZE= # unlimited filesize for history
+#export HISTSIZE= # unlimited history
+#export HISTFILESIZE= # unlimited filesize for history
 setopt APPEND_HISTORY # append multipe bash histories
 
 # Mac iTerm2 Settings
